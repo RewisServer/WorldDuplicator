@@ -1,17 +1,17 @@
 # WorldDuplicator
 
-WorldDuplicator ist eine eigenständige Java-Anwendung, mit der es möglich ist, die Blöcke in einer Minecraft Welt zu duplizieren.
+WorldDuplicator ist eine eigenständige Java-Anwendung, mit der es möglich ist, die Blöcke in einer Minecraft Welt zu duplizieren.  
 Zum Kompilieren wird die Library https://github.com/RewisServer/NBTStorage benötigt.
 
 ## Für was braucht man sowas?
 
-Auf Rewinside.tv haben wir z.B. das Minispiel CastleRush, in dem 12 Leute spielen und jeder in einer eigenen Arena etwas bauen muss.
-Die Arena wird von den Buildern aber nur einmal gebaut. Jetzt könnte man die Arena beim Minigame Start kopieren, das würde aber sehr viel Leistung fressen.
+Auf Rewinside.tv haben wir z.B. das Minispiel CastleRush, in dem 12 Leute spielen und jeder in einer eigenen Arena etwas bauen muss.  
+Die Arena wird von den Buildern aber nur einmal gebaut. Jetzt könnte man die Arena beim Minigame Start kopieren, das würde aber sehr viel Leistung fressen.  
 Deshalb bearbeiten wir die Welt mit diesem Programm, bevor sie auf den Hauptserver hochgeladen wird. Das Programm sucht den Arenenbereich und kopiert ihn x-mal.
 
 ## Download
 
-WorldDuplicator kann von unserem Jenkins heruntergeladen oder selbst kompiliert werden.
+WorldDuplicator kann von unserem Jenkins heruntergeladen oder selbst kompiliert werden.  
 Downloadlink: https://ci.rewinside.tv/job/WorldDuplicator/lastSuccessfulBuild/artifact/target/WorldDuplicator.jar
 
 ## Kompilierung
