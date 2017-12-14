@@ -9,6 +9,11 @@ Auf Rewinside.tv haben wir z.B. das Minispiel CastleRush, in dem 12 Leute spiele
 Die Arena wird von den Buildern aber nur einmal gebaut. Jetzt könnte man die Arena beim Minigame Start kopieren, das würde aber sehr viel Leistung fressen.
 Deshalb bearbeiten wir die Welt mit diesem Programm, bevor sie auf den Hauptserver hochgeladen wird. Das Programm sucht den Arenenbereich und kopiert ihn x-mal.
 
+## Download
+
+WorldDuplicator kann von unserem Jenkins heruntergeladen oder selbst kompiliert werden.
+Downloadlink: https://ci.rewinside.tv/job/WorldDuplicator/lastSuccessfulBuild/artifact/target/WorldDuplicator.jar
+
 ## Kompilierung
 
 ```
@@ -31,6 +36,7 @@ mvn clean install
 
 ## Verwendung
 
+Download: https://ci.rewinside.tv/job/WorldDuplicator/lastSuccessfulBuild/artifact/target/WorldDuplicator.jar  
 ```
 java -jar WorldDuplicator.jar -in world-in/ -out world-new -amount 11
 ```
